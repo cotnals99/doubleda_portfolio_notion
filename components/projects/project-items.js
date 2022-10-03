@@ -54,7 +54,7 @@ export default function ProjectItem({ data }) {
         <h1 className="text-xl font-bold">{title}</h1>
         <h3 className="mt-4 text-lg">{description}</h3>
         <a>깃허브 바로가기</a>
-        <a href={website} target="_blank">웹사이트 바로가기</a>
+        <a href={website} target="_blank" rel="noreferrer">웹사이트 바로가기</a>
         <p className="my-1 ">
           작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
         </p>
